@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Consulta Electoral Guayas</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header><h1>Consulta Electoral Guayas</h1><p>Respuestas basadas únicamente en documentos incorporados y citas verificables.</p></header>
+    <section id="notice">No representa al CNE. No recomienda candidaturas ni verifica cumplimiento futuro de propuestas.</section>
+    <section id="chat" aria-live="polite">
+      <article class="message assistant">Hola. Pregunta por propuestas de las candidaturas incluidas en la base documental.</article>
+    </section>
+    <form id="form">
+      <label for="question">Tu consulta</label>
+      <div class="row"><input id="question" required minlength="5" maxlength="500" placeholder="Ej.: ¿Qué propone sobre seguridad?" autocomplete="off"><button>Enviar</button></div>
+      <details><summary>Filtros opcionales</summary><input id="dignity" placeholder="Dignidad, ej. Alcaldía"><input id="canton" placeholder="Cantón, ej. Guayaquil"></details>
+    </form>
+  </main>
+  <script src="/static/chat.js"></script>
+</body>
+</html>

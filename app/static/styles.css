@@ -1,0 +1,13 @@
+:root { font-family: Arial, sans-serif; color: #14213d; background: #f4f7fb; }
+body { margin: 0; }
+.shell { max-width: 760px; margin: 0 auto; padding: 28px 18px; }
+header h1 { margin: 0; font-size: 1.7rem; } header p { color: #455; }
+#notice { background: #fff3cd; border-radius: 8px; padding: 12px; font-size: .9rem; }
+#chat { min-height: 360px; margin: 18px 0; display: flex; flex-direction: column; gap: 12px; }
+.message { max-width: 85%; padding: 12px 14px; border-radius: 12px; line-height: 1.45; white-space: pre-wrap; }
+.assistant { align-self: flex-start; background: white; box-shadow: 0 1px 4px #ccd5e1; }
+.user { align-self: flex-end; background: #1e6091; color: white; }
+.citations { font-size: .85rem; margin-top: 10px; color: #334; } .citations a { color: #075985; }
+form { background: white; padding: 16px; border-radius: 10px; box-shadow: 0 1px 4px #ccd5e1; } label { display:block; margin-bottom: 8px; font-weight: bold; }
+.row { display:flex; gap:8px; } input { min-width: 0; flex:1; padding: 11px; border: 1px solid #9aa9bc; border-radius: 7px; } button { padding: 11px 18px; background:#075985; color:white; border:0; border-radius:7px; cursor:pointer; }
+details { margin-top: 10px; } details input { margin: 10px 6px 0 0; }
